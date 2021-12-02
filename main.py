@@ -18,9 +18,3 @@ class Money:
     def to_string(self):
         value = float(str(self.__long) + "." + str(self.__byte))
         return value
-
-
-get = Money()
-get.set_long(11)
-get.set_byte(50)
-print(get.to_string())
